@@ -11,6 +11,7 @@ function SearchBar() {
   };
 
   return (
+    <div className='container'>
     <div className='search-container'>
     <img src='https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png' className='google-logo' alt='google logo'/>
     <form className="search-bar" onSubmit={handleSearch}>
@@ -28,6 +29,7 @@ function SearchBar() {
   
       <button className="language" type="submit">Language</button>
     </form>
+  </div>
   </div>
   );
 

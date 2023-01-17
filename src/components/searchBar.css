@@ -2,7 +2,14 @@
     display: flex;
     align-items: 50%;
   }
-  
+  .container{
+    align-items: center;
+    margin-top: 250px;
+    width: -10px;
+    
+    /* height: 30px; */
+    /* width: 10px; */
+  }
   .search-input {
     padding: 8px;
     font-size: 16px;
